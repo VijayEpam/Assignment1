@@ -1,10 +1,5 @@
 package com.vvb.myPack;
 import java.util.*;
-
-public interface Converter{
-double doConvert();
-}
-
 class ConverterManager implements Converter{
 	int flag;
 	Scanner sc;
